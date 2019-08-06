@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>  
+   <title> Option Tag </title>
+   <style>
+      select{
+      font-size:14px;
+      font-weight:bold;
+      color:green;
+    }
+    </style>
+</head>
+<body> 
+<h2>Example of Option tag</h2>
+ <form>
+    <select>
+        <option> -----Select your favourite Technology---- </option>
+         <option value="html">HTML</option>
+        <option value="css">CSS3</option>
+        <option value="lenovo">PHP</option>  
+         <option value="sql">SQL/option>
+        <option value="mysql">My Sql</option>
+        <option value="nosql">No Sql</option>
+        <option value="sqlserver">Sql Server</option>
+        <option value="mongodb">MongoDB</option>
+    </select>
+ </form>
+</body>
+</html>
