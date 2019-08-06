@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>Optgroup Tag</title>
+    <style>
+       body
+       {
+        text-align: center;
+       }
+       select{
+        font-size:14px;
+        font-weight:bold;
+        color:green;
+       }
+    </style>
+</head>
+<body> 
+<h2>Example of optgroup tag</h2>
+<label>Select your favourite Technology</label><br>
+<select>
+    <opt-group label="Web Technology">
+        <option value="html">HTML</option>
+        <option value="css">CSS3</option>
+        <option value="lenovo">PHP</option>
+     </optgroup>
+     <optgroup label="Database">
+        <option value="sql">SQL</option>
+        <option value="mysql">My Sql</option>
+        <option value="nosql">No Sql</option> 
+        <option value="sqlserver">Sql Server</option>
+        <option value="mongodb">MongoDB</option> 
+     </optgroup>
+</select>
+</body>   
+</html>
